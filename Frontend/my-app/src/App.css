@@ -1,0 +1,55 @@
+.App {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.content {
+  display: flex;
+  justify-content: space-between;
+  width: 100%; /* Adjust the width as necessary */
+}
+
+.input-area, .output-area {
+  flex: 1;
+  padding: 20px;
+}
+
+.App-header {
+  background-color: #282c34; /* Color remains unchanged */
+  min-height: 25vh; /* Height adjusted as specified */
+  display: flex;
+  flex-direction: row; /* Maintain row for horizontal layout */
+  align-items: center; /* Keeps content vertically centered */
+  justify-content: center; /* Now centers content horizontally */
+  font-size: calc(10px + 2vmin);
+  color: white;
+  width: 100%; /* Ensures the header spans the full width */
+  position: relative; /* Ensures it stays relative to where it should be on the page */
+  padding: 20px 0; /* Ensures padding for aesthetic */
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+  animation: none; /* Stops the logo from rotating */
+  position: absolute; /* Positions the logo absolutely */
+  top: 0; /* At the top of the viewport */
+  left: 0; /* At the left of the viewport */
+  margin: 10px; /* Adds a small margin around the logo */
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+.text-lg {
+  font-size: 1.25rem; /* 20px if base is 16px */
+  font-weight: bold;
+}
+
+button {
+  margin-top: 20px;
+}
